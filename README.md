@@ -1,39 +1,42 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="banner.svg">
-  <source media="(prefers-color-scheme: light)" srcset="banner.svg">
-  <img alt="Sovereign AI Architect – I build AI architectures enterprises actually control" src="banner.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg">
+  <img alt="Michael Hannecke · AI Security Architect · Delegate to AI agents. Stay in control." src="banner-light.svg" width="100%">
 </picture>
+
+AI agents read email, file documents and act in business software, hundreds of times a day, with permissions someone granted them. Three questions decide whether that goes well: **What may the agent do? Who checks it, in a way that still works at the thousandth action? And what can you prove when auditors, regulators or insurers ask?**
+
+I build the architecture that answers them: access, oversight and evidence for AI agents. Thirty years of critical infrastructure, from Zero Trust for 6,000+ branches to NIS2 engagements with utilities and insurers. Founder of [bluetuple.ai](https://www.bluetuple.ai).
+
+### Access · what may the agent do?
+
+- 🐳 **[claude_in_devcontainer](https://github.com/michaelhannecke/claude_in_devcontainer)**: run Claude Code in isolated multi-container dev environments, with the agent separated from host and secrets
+- ☁️ **[foundry-tf](https://github.com/michaelhannecke/foundry-tf)**: Azure AI Foundry (hub and project) with Terraform, private by default
+
+### Oversight · who checks it, at scale?
+
+- 🛡️ **[claude-injection-guard](https://github.com/michaelhannecke/claude-injection-guard)**: two-stage prompt injection protection for Claude Code agents, rules first, then a *different*, local model as an independent reviewer
+
+### Evidence · what can you prove?
+
+- 🔑 **[appcredmon](https://github.com/michaelhannecke/appcredmon)**: monitor and alert on expiring app registration credentials in Azure / Entra ID
+- 🧭 *In progress:* a reference control architecture for agents (independent reviewer, risk-based escalation, audit-grade logging) and a secure harness baseline for coding agents
+
+### Local AI · keep sensitive data in the building
+
+- ⚡ **[sovereign-vllm-metal](https://github.com/michaelhannecke/sovereign-vllm-metal)**: vLLM on Apple Silicon (Metal), from setup to security hardening
+- 💻 **[claude-code-local](https://github.com/michaelhannecke/claude-code-local)**: Claude Code with local models on Apple Silicon via Ollama and LiteLLM
+- 🔀 **[ccr-local](https://github.com/michaelhannecke/ccr-local)**: Claude Code Router for local LLMs, containerised
+
+### Enterprise tooling
+
+- 📊 **[pbi-mcp-wiki-generator](https://github.com/michaelhannecke/pbi-mcp-wiki-generator)**: generate documentation wikis from Power BI files via an MCP server
+
+### Writing
+
+- [Medium](https://medium.com/@michael.hannecke): hands-on patterns for agentic AI security and local AI
+- [LinkedIn](https://www.linkedin.com/in/michaelhannecke/): AI security, governance and the EU AI Act for decision makers
 
 ---
 
-Most organizations run AI agents that call external APIs, handle customer data,
-and make autonomous decisions — without knowing where the data goes,
-who authorized the call, or where the response is stored.
-
-I fix that.
-
-**What I work on:**
-
-- **Agentic AI Security** — prompt injection defense, tool contracts,
-  circuit breaker patterns for autonomous AI systems
-- **Sovereign AI Infrastructure** — local inference on Apple Silicon (MLX, vLLM),
-  EU-compliant model governance, cloud exit strategies
-- **Enterprise AI Architecture** — RAG pipelines, AI gateways, and compliance
-  evidence chains under EU AI Act, GDPR & NIS2
-
-  **Writing:**
-- [Medium](https://medium.com/@michael.hannecke) — Patterns for sovereign AI that survive Monday morning
-- [LinkedIn](https://www.linkedin.com/in/michaelhannecke/?locale=en-US) — Posts on AI security & enterprise architecture
-
-**Open Source:**
-- 🛡️ [Prompt Injection Guard](https://github.com/michaelhannecke/claude-injection-guard) — Two-stage detection for Claude Code agents
-  with local LLM classification
-- 🍎 [apple-silicon](https://github.com/michaelhannecke/apple-silicon) — Sovereign AI inference on Apple Silicon — MLX, containerization, and local model deployment
-- ⚡ [sovereign-vllm-metal](https://github.com/michaelhannecke/sovereign-vllm-metal) — vLLM on Apple Silicon Metal — step-by-step sovereign inference setup
-- 🐳 [claude_in_devcontainer](https://github.com/michaelhannecke/claude_in_devcontainer) — Run Claude Code in isolated dev containers for secure agentic workflows
-- 📊 [pbi-mcp-wiki-generator](https://github.com/michaelhannecke/pbi-mcp-wiki-generator) — Auto-generate documentation wikis from Power BI datasets via Power BI MCP server
-- 🔑 [appcredmon](https://github.com/michaelhannecke/appcredmon) — Monitor and alert on expiring app credentials in Azure/Entra ID
-
-
-
-📍 Germany · Founder of [bluetuple.ai](https://bluetuple.ai)
+📍 Krefeld, Germany · [bluetuple.ai](https://www.bluetuple.ai) · Open to project work as AI Security Architect
