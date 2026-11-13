@@ -19,6 +19,7 @@ I build the architecture that answers them: access, oversight and evidence for A
 
 ### Evidence · what can you prove?
 
+- 🔭 **[mlx-model-scout](https://github.com/michaelhannecke/mlx-model-scout)**: an MCP server with a team of local agents that finds MLX models fitting your Mac. Human checkpoints enforced by the server, not by a prompt; every number from a deterministic calculator, not the LLM; every LLM call, tool call and decision in a local audit log
 - 🔑 **[appcredmon](https://github.com/michaelhannecke/appcredmon)**: monitor and alert on expiring app registration credentials in Azure / Entra ID
 - 🧭 *In progress:* a reference control architecture for agents (independent reviewer, risk-based escalation, audit-grade logging) and a secure harness baseline for coding agents
 
@@ -27,6 +28,7 @@ I build the architecture that answers them: access, oversight and evidence for A
 - ⚡ **[sovereign-vllm-metal](https://github.com/michaelhannecke/sovereign-vllm-metal)**: vLLM on Apple Silicon (Metal), from setup to security hardening
 - 💻 **[claude-code-local](https://github.com/michaelhannecke/claude-code-local)**: Claude Code with local models on Apple Silicon via Ollama and LiteLLM
 - 🔀 **[ccr-local](https://github.com/michaelhannecke/ccr-local)**: Claude Code Router for local LLMs, containerised
+- 🧪 **[spark-lab](https://github.com/michaelhannecke/spark-lab)**: disposable JupyterLab for the NVIDIA DGX Spark, two layers of isolation so a `pip install` can never touch the host
 
 ### Enterprise tooling
 
